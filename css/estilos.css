@@ -120,10 +120,6 @@ footer{
     grid-area: footer;
 }
 
-#redesSociales{
-    display: inline-block;
-}
-
 .menu{
     margin-bottom: 40px;
     display: flex;
@@ -161,6 +157,9 @@ hr{
     .menu a{
         flex-basis: 22%;
     }
+    .imagenes{
+        width: 90%;
+    }
 }
 
 @media (max-width: 680px){
@@ -169,6 +168,12 @@ hr{
     }
     .menu a{
         flex-basis: 45%;
+    }
+    .imagenes{
+        width: 80%;
+    }
+    .imagenes img{
+        width: 80%;
     }
 }
 
